@@ -13,7 +13,7 @@ body {
 /* ================= HEADER ACTUALIZADO ================= */
 /* 📌 HEADER ROMÁNTICO CON CORAZONES ANIMADOS */
 header {
-    background: #ff5f6d;
+    background: #D32F2F;
     padding: 4rem 0;
     position: relative;
     text-align: center;
@@ -23,7 +23,7 @@ header {
 /* Corazones grandes de fondo */
 header::before,
 header::after {
-    content: '💖';
+    content: '';
     position: absolute;
     font-size: 6rem;
     opacity: 0.15;
@@ -117,7 +117,7 @@ header p {
 /* ================= RESTO DEL CSS ================= */
 /* Barra de Navegación */
 nav {
-    background-color: #ff5f6d;
+    background-color: #D32F2F;
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -168,7 +168,7 @@ nav ul li a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ff5f6d;
+    background-color: #D32F2F;
     color: white;
     border: none;
     border-radius: 50%;
@@ -218,7 +218,7 @@ nav ul li a:hover {
 
 .btn {
     padding: 10px 20px;
-    background-color: #ff5f6d;
+    background-color: #d32f2f;
     color: white;
     border: none;
     border-radius: 5px;
@@ -279,7 +279,7 @@ nav ul li a:hover {
 .contacto {
     padding: 4rem 2rem;
     text-align: center;
-    background-color: #ff5f6d;
+    background-color: #D32F2F;
     color: white;
 }
 
@@ -304,7 +304,7 @@ footer {
 
 .precios h2 {
     font-size: 2.8rem;
-    color: #ff5f6d;
+    color: #d32f2f;
     margin-bottom: 2rem;
 }
 
@@ -326,7 +326,7 @@ footer {
 
 .precio {
     font-size: 2.5rem;
-    color: #ff5f6d;
+    color: #d32f2f;
     font-weight: 700;
     margin: 1rem 0;
 }
@@ -375,7 +375,7 @@ footer {
 
 .plan li:before {
     content: "✓";
-    color: #ff5f6d;
+    color: #d32f2f;
     font-weight: bold;
 }
 /* Sección faq */
@@ -444,7 +444,7 @@ footer {
 }
 
 .contenedor h2 {
-    color: #ff5f6d;
+    color: #d32f2f;
     margin-bottom: 1.5rem;
 }
 
