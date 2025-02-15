@@ -53,7 +53,19 @@ window.addEventListener("scroll", function () {
         img.style.transform = `translateY(${scrollY * 0.03}px)`; 
     }
 });
+    
+    // Preguntas y respuestas
+    const faqQuestions = document.querySelectorAll(".faq-question");
 
+    faqQuestions.forEach(question => {
+        question.addEventListener("click", function() {
+            this.classList.toggle("active");
+            const answer = this.nextElementSibling;
+            answer.style.display = (answer.style.display === "block") ? "none" : "block";
+        });
+    });
+
+    
     // 🖱️ SCROLL SUAVE PARA ENLACES DE NAVEGACIÓN
     // Seleccionamos todos los enlaces que empiezan con #
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
