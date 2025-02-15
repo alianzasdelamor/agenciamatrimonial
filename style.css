@@ -276,30 +276,6 @@ nav ul li a:hover {
     margin-top: 1.5rem;
 }
 
-.contacto input[type="email"] {
-    padding: 10px;
-    font-size: 1.1rem;
-    width: 70%;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: none;
-}
-
-.contacto button {
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #ff5f6d;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contacto button:hover {
-    background-color: #ff8b94;
-}
-
 footer {
     text-align: center;
     padding: 1.5rem;
@@ -342,6 +318,35 @@ footer {
     color: #ff5f6d;
     font-weight: 700;
     margin: 1rem 0;
+}
+
+.contacto form {
+    display: none; /* Oculta el formulario existente */
+}
+
+.info-contacto {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.info-contacto a {
+    color: white;
+    text-decoration: underline;
+    transition: opacity 0.3s ease;
+}
+
+.info-contacto a:hover {
+    opacity: 0.8;
+}
+
+.info-contacto p {
+    margin: 1rem 0;
+}
+
+.info-pago {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 1rem;
 }
 
 .plan ul {
