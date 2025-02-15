@@ -64,7 +64,7 @@ header::after {
 
 /* Título principal */
 header h1 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 5.5rem;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
