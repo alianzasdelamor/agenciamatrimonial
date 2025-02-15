@@ -338,6 +338,7 @@ footer {
 .info-contacto {
     font-size: 1.2rem;
     line-height: 1.8;
+    white-space: nowrap;
 }
 
 .info-contacto a {
@@ -587,6 +588,15 @@ footer {
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
+    }
+    .info-contacto p {
+        white-space: normal; /* Permite el salto de línea */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-contacto p a {
+        margin-top: 5px; /* Espacio entre el texto y el enlace */
     }
 
     footer {
