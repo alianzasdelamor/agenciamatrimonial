@@ -378,6 +378,8 @@ footer {
     font-size: 28px;
     margin-bottom: 20px;
     color: #333;
+    text-align: center; /* Asegura que el título esté centrado */
+    width: 100%;
 }
 
 .faq-item {
