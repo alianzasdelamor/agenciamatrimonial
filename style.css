@@ -23,9 +23,9 @@ header {
 /* Corazones grandes de fondo */
 header::before,
 header::after {
-    content: '';
+    content: '💖';
     position: absolute;
-    font-size: 8rem;
+    font-size: 6rem;
     opacity: 0.15;
     top: 50%;
     transform: translateY(-50%);
