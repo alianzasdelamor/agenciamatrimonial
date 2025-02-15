@@ -576,6 +576,11 @@ footer {
         width: 80%;
     }
 
+    .info-contacto {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
     footer {
         padding: 1rem;
     }
