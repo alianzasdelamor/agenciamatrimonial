@@ -43,29 +43,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // 📧 VALIDACIÓN DE FORMULARIO
-    const form = document.querySelector("form");
-    
-    // Evento que se ejecuta al enviar el formulario
-    form.addEventListener("submit", function (event) {
-        // 1. Buscamos el campo de email en el formulario
-        const emailInput = form.querySelector("input[type='email']");
-        
-        // 2. Verificamos si el email es válido
-        if (!validateEmail(emailInput.value)) {
-            event.preventDefault(); // Detenemos el envío del formulario
-            alert("Por favor, introduce un email válido.");
-        } else {
-            alert("¡Gracias por registrarte! Te contactaremos pronto.");
-        }
-    });
-
-    // Función para validar formato de email con Expresión Regular
-    function validateEmail(email) {
-        // La expresión regular verifica: texto@texto.texto
-        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-    }
-
    // 🌄 EFECTO PARALLAX EN LA IMAGEN PRINCIPAL (VERSIÓN SIMPLIFICADA)
 window.addEventListener("scroll", function () {
     const img = document.querySelector(".hero-img img");
