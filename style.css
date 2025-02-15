@@ -23,7 +23,7 @@ header {
 /* Corazones grandes de fondo */
 header::before,
 header::after {
-    content: '';
+    content: '💖';
     position: absolute;
     font-size: 8rem;
     opacity: 0.15;
@@ -51,7 +51,7 @@ header::after {
 .logo {
     width: 100px; /* Ajusta el tamaño del logo */
     margin-bottom: 10px;
-    
+}
 /* Animación de flotación */
 @keyframes float {
     0%, 100% { 
