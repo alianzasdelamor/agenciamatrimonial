@@ -456,6 +456,17 @@ footer {
     margin-bottom: 15px; /* Ajusta el valor según lo que necesites */
 }
 
+.redes-sociales {
+    text-align: center; /* Centra el contenido */
+}
+
+.redes-sociales ul {
+    list-style: none; /* Quita los puntos */
+    padding: 0; /* Elimina espacio extra a la izquierda */
+    margin: 0 auto; /* Centra la lista */
+    display: inline-block; /* Permite centrar la lista en línea */
+}
+
 
 
 /* Estilos para el aviso legal */
