@@ -451,6 +451,11 @@ footer {
     color: #ff9800; /* Color de hover opcional */
 }
 
+/* Espacio entre el título "Síguenos en nuestras redes sociales:" y la lista */
+.redes-sociales h3 {
+    margin-bottom: 15px; /* Ajusta el valor según lo que necesites */
+}
+
 
 
 /* Estilos para el aviso legal */
