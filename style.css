@@ -434,6 +434,23 @@ footer {
     transform: rotate(180deg);
 }
 
+/* Cambiar color de texto a blanco en redes sociales */
+.redes-sociales a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.redes-sociales i {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.redes-sociales a:hover {
+    color: #ff9800; /* Color de hover opcional */
+}
+
 
 
 /* Estilos para el aviso legal */
