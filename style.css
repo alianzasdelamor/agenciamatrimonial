@@ -313,18 +313,15 @@ footer {
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border: 2px solid #d32f2f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.plan.unico:hover {
-    transform: translateY(-10px);
+/* Efecto al pasar el mouse (hover) */
+.oferta-texto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-.precio {
-    font-size: 2.5rem;
-    color: #d32f2f;
-    font-weight: 700;
-    margin: 1rem 0;
-}
 
 .contacto form {
     display: none; /* Oculta el formulario existente */
